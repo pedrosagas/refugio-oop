@@ -12,7 +12,7 @@ class Animal:
     def presentarse(self):
         text = f"Hola, soy {self.nombre}{self.especie} | {self.edad} ã)"
         print(text)
-        pass
+        
 
     def jugar(self):
         self.energia -= 20
